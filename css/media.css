@@ -1,0 +1,309 @@
+@media only screen and (min-width: 200px) and (max-width: 767px){
+
+
+.header .header-top-m ul li:first-child {padding-right: 20px; }
+.header .header-top-m .header-top-r {text-align: right; width: 100%; }
+.header .header-top-m .header-top-r .h-search {position: relative; margin-right: 25px; }
+.header .header-top-m img {max-width: 13%; }
+.header .header-main .header-main-r {text-align: right; display: none; }
+
+.menu-wrap {display: block;}
+.menu-button {display: block;}
+button#open-button {display: block; position: absolute; top: 132px; right: 0; background: transparent; color: #fff; box-shadow: none; }
+.menu-wrap {position: fixed; right: 0; top: 0; z-index: 1001; width: 300px; color: #fff; height: 100%; padding: 40px; background-color: #000; box-shadow: 0 0 15px rgba(0,0,0,0.2); transition: all 0.5s cubic-bezier(0.7,0,0.3,1); transform: translate3d(360px,0,0); }
+.menu-wrap.active {transform: translate3d(0px,0,0); }
+.menu-wrap .menu .icon-list a {position: relative; font-family: 'Nunito', sans-serif; display: block; padding: 20px 0; text-decoration: none; color: #fff; font-size: 20px; transition: all 0.3s ease; }
+.menu-wrap .menu .icon-list a::before {position: absolute; content: ""; width: 0%; height: 2px; top: 80%; transition: all 0.3s ease; }
+.menu-wrap .menu .icon-list a:hover {color: #FFB800; }
+.menu-wrap .menu .icon-list a:hover::before {width: 50%; background-color: #FFB800; }
+/* Buttons */
+.close-button {right: 0; top: 10px; z-index: 100; }
+.menu-button, .close-button {position: fixed; top: 50px; width: 50px; color: #fff; height: 50px; background-color: transparent; font-size: 20px; border: none; outline: none; cursor: pointer; }
+.menu-button {right: 0px; z-index: 102; }
+.close-button {left: -50px; z-index: 100; }
+.hand-mm {margin-top: 58px; }
+.bg .bg-m .col-sm-6 {float: left;  width: 100%;}
+.bg .bg-m .bg-m-l {float: left; padding-top: 30px; }
+.bg .bg-m h3 {font-size: 24px; }
+.bg .bg-m h1 {font-size: 50px; }
+.bg .bg-m h6 {font-size: 14px; }
+.col-sm-6.about-astro-rrr {padding-left: 10px; }
+.bg {height: 1101px; overflow: hidden; }
+.bg .bg-m .bg-m-r {padding: 20px 0; }
+.bg .bg-m .bg-m-r .hand {z-index: 3; position: relative; max-width: 58%; }
+.bg .bg-m .bg-m-r  .handbg {-webkit-animation: rotation 15s infinite linear; max-width: 100%; top: 68px; }
+.bg .bg-m  .bg-m-btn {font-family: 'Poppins'; font-style: normal; font-weight: 500; margin-top: 17px; font-size: 14px; background: #fff; height: 50px; width: 150px; border-radius: 100px; }
+.about-astro h2 {font-size: 40px; }
+.about-astro h5 {font-size: 15px; }
+.col-sm-6.about-astro-l img {max-width: 100%; height: auto; }
+.about-astro .about-astro-cnt .col-sm-6 {float: left; width: 100%; }
+.about-astro .about-astro-cnt h3 {font-size: 44px; color: #000; margin-top: 20px; }
+.about-astro .about-astro-cnt h6 {font-size: 15px; }
+.horoscope .horoscope-m h2 {font-size: 40px; }
+.horoscope .horoscope-m h5 {font-size: 15px; }
+.horoscope .horoscope-card .col-sm-2 {float: left; padding: 0 10px; width: 50%; margin: 10px 0; }
+.our-services .our-services-m h2 {font-size: 40px; }
+.our-services .our-services-m h5 {font-size: 15px; }
+.our-services-m-l img {max-width: 100%;}
+.our-services .our-services-m-m .col-sm-6 {float: left; width: 100%; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 {float: left; padding: 0 25px; margin: 10px 0; }
+.choose {float: left; width: 100%; background: url(../image/choose.png); background-repeat: no-repeat; background-size: cover; padding-top: 50%;  padding-bottom: 115px;  }
+.choose .choose-m h2 {font-size: 40px; }
+.choose .choose-m h5 {font-size: 15px; }
+.choose .choose-c .col-sm-3 {float: left; width: 100%; text-align: center; margin: 10px 0; }
+.rev-main img {max-width: 100%; }
+.client-rev .client-rev-m h2 {font-size: 40px; }
+.client-rev .client-rev-m h5 {font-size: 15px; }
+.client-rev .rev-main .rev-main-c {text-align: center; float: left; width: 100%; background: linear-gradient(90deg, #FFB800 1.79%, #FF6F00 100%); border-radius: 19px; padding: 35px 11px; margin-top: 40px; }
+.client-rev .client-rev-m .rev-main-c h2 {font-size: 28px; }
+.client-rev {overflow: hidden; }
+.client-rev .rev-main .rev-main-c .revbg {position: absolute; top: 15px; right: 5px; }
+.know-zod .know-zod-m h2 {font-size: 35px; }
+.know-zod .know-zod-m h5 {font-size: 15px; }
+.know-zod .zod-form .col-sm-3 {float: left; width: 100%; margin: 10px 0; }
+.know-zod .zod-form button {margin-top: 20px; }
+.know-zod .zod-form input[type="date"] {width: 100%; }
+.know-zod .zod-form input[type="text"] {width: 100%; }
+.know-zod .zod-form input[type="time"] {width: 100%; }
+.know-zod .zod-form button {width: 100%; }
+.our-services .our-services-m-m .our-services-m-r .kundli-c .kbg {position: absolute; z-index: 0; top: 29px; left: 23px; -webkit-animation: rotation 15s infinite linear; }
+.our-services-m-l img.sl {position: relative; z-index: 1; left: 24%; max-width: 50%; top: -27px; }
+.our-services-m-l .slbg {position: absolute; top: 25px; left: 0; z-index: 0; -webkit-animation: rotation 15s infinite linear; }
+.our-services .our-services-m-m {float: left; width: 100%; padding: 10% 0; }
+
+
+
+
+.contact-mod h2 {font-size: 35px;}
+.contact-mod .contact-mod-f .col-sm-6 {width: 100%; }
+.contact-mod .contact-mod-f {padding: 0; }
+.contact-mod .contact-mod-f span input {margin: 5px 0; }
+.contact-mod .contact-mod-t {padding: 5px 8px 0 8px; }
+
+.col-sm-6.header-top-l i {padding-right: 2px; }
+
+
+
+.header .header-main ul li a {margin-left: 0; border: none;}
+.header .header-main ul li a:active {border: none;}
+.header .header-main ul li a:hover {border: none;}
+.icon-list ul {padding-left: 0; }
+.header .header-main ul li {display: inline-block; width: 100%; }
+
+
+.client-rev .rev-main .col-sm-7 {padding-left: 0; }
+
+/*horo-cnt modal start*/
+
+.horo-cnt {padding: 0; }
+.horo-cnt h2 {font-size: 35px; }
+.horo-cnt img {max-width: 100%; }
+.horo-cnt h1 {font-size: 33px; }
+.horo-cnt p {font-size: 14px; }
+
+
+.rev-main-ll .rr1 {position: relative; top: 0; right: 0;  }
+.rev-main-ll .rr2 {position: relative;top: 0; left: 0;  }
+.rev-main-ll .rr3 {position: relative; top: 0; left: 0; }
+.rev-main-ll .rr4 {position: relative;top: 0; left: 0;  }
+.rev-main-ll .rr5 {position: relative; top: 0; left: 0; }
+.rev-main-ll .rr6 {position: relative; top: 0; right: 0; }
+.rev-main .nav {justify-content: center!important; }
+
+
+
+
+.choose .choose-c h4 {left: 45%; }
+
+
+
+}
+
+/*@media (min-width: 576px){
+.horo-cnt-mm .modal-dialog {max-width: 645px!important; }
+}*/
+
+@media only screen and (min-width: 768px) and (max-width: 820px){
+
+.hand-mm { margin-top: 62px; }
+
+
+
+.header .header-top-m ul li:first-child {padding-right: 15px; }
+.header .header-top-m .header-top-r .h-search {margin-right: 15px; }
+.header .header-main ul li a {margin-left: 16px; }
+.header .header-main ul li a {padding-top: 31px; }
+.col-sm-6.header-top-l {padding-top: 10px; }
+.header .header-main ul li a {color: #fff; text-decoration: none; font-size: 14px; font-weight: 400;  }
+
+
+.bg .bg-m {float: left; width: 100%; position: relative; }
+.bg .bg-m h3 {font-size: 22px; }
+.bg .bg-m h1 {font-size: 44px; }
+.bg .bg-m h6 {font-size: 14px; }
+.bg .bg-m .bg-m-l {padding-top: 45px; }
+.bg .bg-m .bg-m-btn {font-family: 'Poppins'; font-style: normal; font-weight: 500; margin-top: 17px; font-size: 14px; background: #fff; height: 37px; width: 115px; border-radius: 100px; }
+.bg .bg-m .bg-m-r .hand {z-index: 3; position: relative; max-width: 54%; }
+.bg .bg-m .bg-m-r  .handbg {-webkit-animation: rotation 15s infinite linear; max-width: 100%; top: 95px; left: 40px; }
+.bg {height: 715px; }
+.about-astro h2 {font-size: 40px; }
+.about-astro h5 {font-size: 14px; }
+.about-astro-cnt img {max-width: 100%; }
+.about-astro .about-astro-cnt h3 {font-family: 'Cormorant Upright'; font-style: normal; font-weight: 700; font-size: 40px; color: #000; }
+.about-astro .about-astro-cnt h6 {font-family: 'Poppins'; font-style: normal; font-weight: 400; font-size: 14px; color: #000; margin-top: 30px; }
+.about-astro .about-astro-cnt .about30 .col-sm-1 {float: left; padding-top: 8px; padding-left: 5px; }
+.about-astro .about-astro-cnt .about30 h2 {font-size: 35px; }
+.about-astro .about-astro-cnt .about30 .col-sm-7 p {font-family: 'Cormorant Upright'; font-style: normal; font-weight: 700; font-size: 18px; margin-top: -6px; }
+.about-astro .about-astro-cnt .about30 .col-sm-7  span {font-size: 14px; }
+.about-astro .about-astro-cnt .about30 .col-sm-7 {float: left; padding-top: 4px; padding-left: 16px; }
+.about-astro .about-astro-cnt button {width: 125px; height: 40px; margin-top: 0px; }
+.about-astro-r {padding-left: 15px; }
+.about-astro .about-astro-cnt h6 {margin-top: 15px; }
+.about-astro .about-astro-cnt .about30 {padding: 0% 0 15px 0; }
+.horoscope .horoscope-m h2 {font-size: 40px; }
+.horoscope .horoscope-m h5 {font-size: 14px; }
+.horoscope .horoscope-card .col-sm-2 {float: left; padding: 0 5px; }
+.horoscope .horoscope-card .col-sm-2 {float: left; padding: 0 5px; width: 31%; margin: 5px; }
+.horoscope .horoscope-card {padding: 0; }
+.horoscope {padding: 7% 0; }
+.our-services .our-services-m h2 {font-size: 40px; }
+.our-services .our-services-m h5 {font-size: 14px; }
+.our-services-m-l img {max-width: 100%; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 {float: left; padding: 0 5px; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 .kundli-c {padding: 10% 6px 15px 6px; }
+
+
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 .kundli-c h4 {font-size: 25px; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 .kundli-c h6 {font-size: 14px; }
+.our-services-m-l {padding-top: 50px; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 .kundli-c .k1 {margin-bottom: 10px; max-width: 40%; }
+img.kbg {max-width: 90%; }
+.our-services {float: left; width: 100%; padding: 4% 0 0 0; }
+.our-services .our-services-m-m .our-services-m-r {float: left; width: 100%; padding: 2% 0; }
+.choose .choose-m h2 {font-size: 40px; }
+.choose {padding-top: 80px; }
+.choose .choose-m h5 {margin-top: 0; font-size: 14px; }
+.choose .choose-c {padding: 12% 0; }
+.choose .choose-c h3 {font-family: 'Cormorant Upright'; font-style: normal; font-weight: 600; font-size: 17px; color: #fff; margin-top: 10px;}
+.client-rev .client-rev-m h2 {font-size: 40px; }
+.client-rev {padding: 0 0 0 0; }
+.client-rev .client-rev-m h5 {font-size: 14px; }
+.rev-main img {max-width: 90%; }
+.client-rev .rev-main {float: left; padding: 2% 0; width: 100%; }
+.client-rev .rev-main .rev-main-c {margin-top: 30px; }
+.client-rev .rev-main .rev-main-c p {font-size: 13px; margin: 0; }
+.client-rev .rev-main .rev-main-c h2 {color: #fff; font-size: 20px; }
+.client-rev .rev-main .rev-main-c {text-align: center; float: left; width: 100%; background: linear-gradient(90deg, #FFB800 1.79%, #FF6F00 100%); border-radius: 19px; padding: 15px 28px; }
+.know-zod .know-zod-m h2 {font-size: 40px; }
+.know-zod .know-zod-m h5 {font-size: 14px; }
+.know-zod .zod-form label {font-size: 17px; }
+.know-zod .zod-form input[type="date"] {background: #FFFFFF; border: 1px solid #FF7010; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15); border-radius: 12px; width: 123px; font-size: 12px; height: 37px; padding: 0 5px 0px 8px; margin-top: 14px; }
+.know-zod .zod-form input[type="text"] {background: #FFFFFF; border: 1px solid #FF7010; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15); border-radius: 12px; width: 123px; font-size: 12px; height: 37px; padding: 0 5px 0px 8px; margin-top: 14px; }
+.know-zod .zod-form input[type="time"] {background: #FFFFFF; border: 1px solid #FF7010; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15); border-radius: 12px; width: 123px; font-size: 12px; height: 37px; padding: 0 5px 0px 8px; margin-top: 14px; }
+.know-zod .zod-form button {background: linear-gradient(90deg, #FFB800 1.79%, #FF6F00 100%); border-radius: 12px; height: 37px; border: none; color: #fff; font-family: 'Poppins'; font-style: normal; font-weight: 500; font-size: 14px; width: 123px; margin-top: 39px; }
+
+.our-services-m-l img.sl {position: relative; z-index: 1; left: 25%; top: -91px; max-width: 47%; }
+.our-services .our-services-m-m {float: left; width: 100%; padding: 10% 0 4% 0; }
+
+.know-zod .zod-form input[type="text"] {font-size: 10px; }
+.know-zod .zod-form i {position: absolute; top: 10px; right: 11px; font-size: 11px; color: #969696; }
+
+
+.client-rev .rev-main .rev-main-c .revbg {position: absolute; top: 5px; max-width: 49%; right: 0; }
+
+.our-services .our-services-m-m .our-services-m-r .kundli-c .kbg {position: absolute; z-index: 0; top: 15px; left: 4px; -webkit-animation: rotation 15s infinite linear; }
+
+
+.contact-mod .contact-mod-f span input {font-size: 14px; }
+
+
+.header .header-top-m .header-top-r input[type="text"] {padding-right: 44px; }
+
+
+.col-sm-6.header-top-l i {padding-right: 2px; }
+
+
+/*horo-cnt modal start*/
+
+.horo-cnt {padding: 0 20px; }
+.horo-cnt p {margin-top: 12px; font-size: 15px; }
+.horo-cnt h2 {font-size: 40px; }
+.horo-cnt h1 {padding: 10px 0 0 0; font-size: 30px; }
+
+
+
+.rev-main .nav-link img {max-width: 70%; }
+.rev-main-ll .rr4 {top: 142px; left: 26%;}
+.rev-main-ll .rr2 {position: absolute; left: 38%; top: 72px; }
+.rev-main-ll .rr6 {position: absolute; right: 16px; top: 124px; }
+.rev-main-ll .rr5 {position: absolute; top: 55px; left: 0; }
+.rev-main-ll .rr3 {position: absolute; left: 28%; }
+
+.col-sm-6.about-astro-l img {max-width: 90%; height: 360px; }
+.col-sm-6.about-astro-rrr {padding-left: 20px; }
+.rev-main .nav-link {padding: 0!important; }
+}
+
+@media only screen and  (max-width: 767px){
+
+.foot4b input {background: #FFFFFF; padding-left: 10px; border-radius: 25px; border: none; width: 100%; font-family: 'Poppins'; font-style: normal; font-weight: 400; font-size: 16px; height: 36px; text-transform: capitalize; }
+.foot4b {float: left; width: 100%; padding-top: 20px; position: relative; }
+.foot2b{text-align: left; padding-top: 20px;}
+.foot11 img {margin-top: -9px; }
+.foot4b i {right: 5px; font-size: 13px;}
+}
+
+
+@media only screen and (min-width: 768px)  and  (max-width: 1024px) {
+
+
+.foot11 img {margin-top: -9px; }
+.foot2b{font-size: 23px;}
+.foot1b{font-size: 12px;}
+.foot2c li{font-size: 12px;}
+.foot4a{font-size: 12px;}
+.foot4c{font-size: 12px;}
+}
+
+@media only screen and (min-width: 830px)  and  (max-width: 1024px) {
+
+
+
+.bg {height: 870px; }
+.bg .bg-m {top: 280px; }
+.hand-mm {margin-top: 74px; }
+.bg .bg-m .bg-m-r .hand {z-index: 3; max-width: 60%; }
+.bg .bg-m .bg-m-l {padding-top: 90px; }
+.bg .bg-m h3 {font-size: 22px;}
+.bg .bg-m h1 {font-size: 50px; }
+.bg .bg-m h6 {font-size: 14px; }
+.bg .bg-m .bg-m-btn {font-size: 15px; height: 44px; width: 135px; border-radius: 100px; }
+.horoscope .horoscope-card .col-sm-2 {float: left; padding: 0 7px; }
+.horoscope .horoscope-card .horoscope-card-m h4 {font-size: 24px; }
+.horoscope .horoscope-card .horoscope-card-m h6 {font-size: 15px; }
+.our-services-m-l .slbg {max-width: 100%; }
+.our-services-m-l img.sl {position: relative; z-index: 1; left: 24%; top: -48px; max-width: 47%; }
+.our-services .our-services-m-m .col-sm-6 {padding: 0 25px; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 {float: left; padding: 0 8px; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 .kundli-c {padding: 15% 10px 25px 10px; }
+.our-services .our-services-m-m .our-services-m-r .kundli-c .kbg {left: 3px; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 .kundli-c h4 {font-size: 28px; }
+.our-services .our-services-m-m .our-services-m-r .col-sm-6 .kundli-c h6 {font-size: 15px; }
+.rev-main-ll .rr2 {position: absolute; left: 41%; top: 94px; }
+.know-zod .zod-form input[type="date"] {width: 165px; height: 42px; }
+.know-zod .zod-form input[type="text"] {width: 165px; height: 42px; font-size: 13px; }
+.know-zod .zod-form input[type="time"] {width: 165px; height: 42px; }
+.know-zod .zod-form button {height: 42px; width: 165px; font-size: 16px;}
+.choose .choose-c h3 {font-size: 20px; }
+.about-astro .about-astro-cnt .about30 h2 {font-size: 40px; }
+.about-astro .about-astro-cnt .about30 .col-sm-7  span {font-size: 14px; }
+.about-astro .about-astro-cnt .about30 .col-sm-7 p {font-size: 16px;}
+.about-astro .about-astro-cnt button {background: linear-gradient(90deg, #FFB800 1.79%, #FF6F00 100%); border-radius: 100px; border: none; color: #fff; width: 155px; height: 45px; margin-top: 14px; }
+.header .header-main ul li a {margin-left: 30px; }
+.header-main img {padding-top: 12px; max-width: 70%; }
+
+
+
+
+
+}
